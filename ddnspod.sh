@@ -5,7 +5,7 @@
 . /your_real_path/ardnspod
 
 # Combine your token ID and token together as follows
-arToken="12345,7676f344eaeaea9074c123451234512d"
+arToken="342256,4b8ca244ab5fa1db1501de67a835f769"
 
 # Web endpoint to be used for querying the public IPv6 address
 # Set this to override the default url provided by ardnspod
@@ -19,7 +19,7 @@ arToken="12345,7676f344eaeaea9074c123451234512d"
 # you can have multiple arDdnsCheck blocks
 
 # IPv4:
-arDdnsCheck "test.org" "subdomain"
+arDdnsCheck "19tc.ml" "ipv4.19tc.ml"
 
 # IPv6:
-arDdnsCheck "test.org" "subdomain6" 6
+arDdnsCheck "v6.19tc.ml" "v7.19tc.ml" 6
